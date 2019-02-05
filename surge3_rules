@@ -15,7 +15,7 @@ FINAL,rixCloud,dns-failed
 
 [URL Rewrite]
 # AbeamTV Unlock
-^https?:\/\/api\.abematv\.io\/v1\/ip\/check\? - reject
+^https?:\/\/api\.abematv\.io\/v1\/ip\/check - reject
 
 # Redirect Google Service
 ^https?:\/\/(www.)?g\.cn https://www.google.com 302
