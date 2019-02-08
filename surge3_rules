@@ -1,15 +1,22 @@
 [Rule]
 
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Stream.list,Stream Services
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW+.list,rixCloud
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW.list,rixCloud
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Apple.list,Apple Services
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/China.list,DIRECT
+# Reject
 RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject.list,REJECT
 
-RULE-SET,LAN,DIRECT
+# Selectable
+RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Stream.list,Stream Services
+RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Apple.list,Apple Services
 
+# Proxy
+RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW+.list,rixCloud
+RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW.list,rixCloud
+
+# Direct
+RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/China.list,DIRECT
+RULE-SET,LAN,DIRECT
 GEOIP,CN,DIRECT
+
+# Other
 FINAL,rixCloud,dns-failed
 
 
