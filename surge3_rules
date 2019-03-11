@@ -11,10 +11,10 @@ RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Apple.list,Apple Services
 RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW+.list,rixCloud
 RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW.list,rixCloud
 
-# Direct
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/China.list,DIRECT
+# Direct and Domestic
+RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/China.list,Domestic
 RULE-SET,LAN,DIRECT
-GEOIP,CN,DIRECT
+GEOIP,CN,Domestic
 
 # Other
 FINAL,rixCloud,dns-failed
