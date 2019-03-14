@@ -101,6 +101,7 @@ DOMAIN-SUFFIX,gvt3.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gmail.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,googleapis.cn,rixCloud,force-remote-dns
 
 # >> Facebook
 DOMAIN-KEYWORD,facebook,rixCloud,force-remote-dns
