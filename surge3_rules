@@ -442,7 +442,8 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
 ^https?:\/\/dspsdk\.abreader\.com\/v2\/api\/ad\? - reject
-
+^https?:\/\/b\.zhuishushenqi\.com\/advert - reject
+^https?:\/\/api01pbmp\.zhuishushenqi\.com\/gameAdvert - reject
 
 [Host]
 ip6-localhost = ::1
