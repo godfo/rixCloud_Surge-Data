@@ -343,6 +343,10 @@ FINAL,rixCloud,dns-failed
 # >> Tencent Futu Securities
 ^https?:\/\/api5\.futunn\.com\/ad\/ - reject
 
+# >> Tencent Game
+^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons - reject
+^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
+
 # >> Tencent Maps
 ^https?:\/\/newsso\.map\.qq\.com\/\?&attime= - reject
 
