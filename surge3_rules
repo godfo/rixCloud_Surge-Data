@@ -111,7 +111,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement - reject
 
 # >> Baicizhan
-^http:\/\/7n\.bczcdn\.com\/launchad\/ - reject
+^https?:\/\/7n\.bczcdn\.com\/launchad\/ - reject
 
 # >> Baidu
 ^https?:\/\/update\.pan\.baidu\.com\/statistics - reject
@@ -119,6 +119,9 @@ FINAL,rixCloud,dns-failed
 
 # >> Baobao
 ^https?:\/\/www\.myhug\.cn\/ad\/ - reject
+
+# >> Beitaicuhfang
+^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/ios\/start\/page - reject
 
 # >> ByteDance
 ^https?:\/\/.+\.pstatp\.com\/img\/ad - reject
@@ -418,7 +421,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/.+\.mp4\?sid= - reject
 
 # >> Youtube++
-^http:\/\/api\.catch\.gift\/api\/v3\/pagead\/ - reject
+^https?:\/\/api\.catch\.gift\/api\/v3\/pagead\/ - reject
 
 # >> Yundongshijie
 ^https?:\/\/.+\.iydsj\.com\/api\/.+\/ad - reject
