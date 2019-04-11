@@ -358,6 +358,7 @@ DOMAIN-SUFFIX,udacity.com,Domestic
 DOMAIN-SUFFIX,test-ipv6.com,Domestic
 DOMAIN-SUFFIX,ipv6-test.com,Domestic
 DOMAIN-SUFFIX,akadns.net,Domestic
+DOMAIN-KEYWORD,amplifi,Domestic
 
 USER-AGENT,NeteaseMusic*,Domestic
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,Domestic
