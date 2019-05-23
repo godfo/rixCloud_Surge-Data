@@ -81,6 +81,9 @@ DOMAIN,youtubei.googleapis.com,Stream Services,force-remote-dns
 
 # --- Enhanced Anti-GFW ---
 
+# >> Cloudflare
+DOMAIN-SUFFIX,cloudflareresolve.com,rixCloud,force-remote-dns
+
 # >> rixCloud
 DOMAIN-SUFFIX,rix.ee,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.com,rixCloud,force-remote-dns
