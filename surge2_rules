@@ -307,6 +307,7 @@ DOMAIN-SUFFIX,bing.com,rixCloud
 DOMAIN-SUFFIX,fb.com,rixCloud
 DOMAIN-SUFFIX,newsblur.com,rixCloud
 DOMAIN,ccmdl.adobe.com,rixCloud
+DOMAIN,zh.ifixit.com,rixCloud
 
 # >> Telegram
 DOMAIN-SUFFIX,telegra.ph,rixCloud
