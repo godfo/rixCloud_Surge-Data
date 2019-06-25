@@ -698,6 +698,19 @@ DOMAIN,newloc.map.n.shifen.com,REJECT
 DOMAIN,adx.yiche.com,REJECT
 DOMAIN,log.ycapp.yiche.com,REJECT
 
+# >> Bilibili
+
+DOMAIN,dataflow.biliapi.com,REJECT
+DOMAIN,data.bilibili.com,REJECT
+DOMAIN,thirdparty.biliapi.com,REJECT
+DOMAIN,cm.bilibili.com,REJECT
+URL-REGEX,https://app.bilibili.com/x/v2/param,REJECT
+URL-REGEX,https://app.bilibili.com/x/resource/abtest,REJECT
+URL-REGEX,http://app.bilibili.com/x/v2/dataflow/report,REJECT-TINYGIF
+URL-REGEX,https://app.bilibili.com/x/v2/search/(defaultword|hot|recommend|resource),REJECT
+URL-REGEX,https://app.bilibili.com/x/v2/rank.*rid=(168|5),REJECT
+URL-REGEX,https://api.bilibili.com/pgc/season/rank/cn,REJECT
+
 # >> CNTV
 DOMAIN,galaxy.bjcathay.com,REJECT
 DOMAIN,mdrecv.app.cntvwb.cn,REJECT
@@ -848,6 +861,16 @@ DOMAIN,iyes.youku.com,REJECT
 # >> ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
+
+# >> Zhihu
+
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN-SUFFIX,xdrig.com,REJECT
+URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|ab|banners|topstory/hot-lists|market/popover|mqtt),REJECT
+URL-REGEX,https://api.zhihu.com.*(launch|recommendations),REJECT
+URL-REGEX,https://api.zhihu.com/search/(top|tabs|preset),REJECT
+URL-REGEX,https://api.zhihu.com/answers/.*/comments/featured-comment-ad,REJECT
+USER-AGENT,AVOS*,REJECT
 
 # --- End of Anti-AD Section ---
 
