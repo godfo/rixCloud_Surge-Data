@@ -89,6 +89,10 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/union\.click\.jd\.com\/sem.php? http://union.click.jd.com/sem.php?adblock= header
 ^https?:\/\/www.jd.com\/ https://www.jd.com/ 302
 
+# TikTok Internation
+(.*video_id=\w{32})(.*watermark=)(.*) $1 302
+(?<=(carrier|account|sys)_region=)CN JP 307
+
 # Wiki
 ^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
 ^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
