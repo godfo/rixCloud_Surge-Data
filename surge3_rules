@@ -2,6 +2,7 @@
 
 # Reject
 RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject.list,REJECT
+RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject-GIF.list,REJECT-TINYGIF
 
 # Selectable
 RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Stream.list,Stream Services
