@@ -706,7 +706,7 @@ DOMAIN,thirdparty.biliapi.com,REJECT
 DOMAIN,cm.bilibili.com,REJECT
 URL-REGEX,https://app.bilibili.com/x/v2/param,REJECT
 URL-REGEX,https://app.bilibili.com/x/resource/abtest,REJECT
-URL-REGEX,http://app.bilibili.com/x/v2/dataflow/report,REJECT-TINYGIF
+URL-REGEX,http://app.bilibili.com/x/v2/dataflow/report,REJECT
 URL-REGEX,https://app.bilibili.com/x/v2/search/(defaultword|hot|recommend|resource),REJECT
 URL-REGEX,https://app.bilibili.com/x/v2/rank.*rid=(168|5),REJECT
 URL-REGEX,https://api.bilibili.com/pgc/season/rank/cn,REJECT
