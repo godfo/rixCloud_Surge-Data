@@ -23,7 +23,7 @@ FINAL,rixCloud,dns-failed
 
 [URL Rewrite]
 # AbeamTV Unlock
-^https?:\/\/api\.abema\.io\/v1\/ip\/check - reject
+^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
 
 # Redirect Google Service
 ^https?:\/\/(www.)?g\.cn https://www.google.com 302
@@ -142,18 +142,18 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage - reject
 
 # >> Beitaicuhfang
-^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/ios\/start\/page - reject
+^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page - reject
 
 # >> Bi ShiJie
 ^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ - reject
 
 # >> Bilibili
-^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/ - reject
+^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ - reject
 
 # >> ByteDance
 ^https?:\/\/.+\.(musical|snssdk)\.(com|ly)\/(api|motor)\/ad\/ - reject
 ^https?:\/\/.+\.pstatp\.com\/img\/ad - reject
-^https?:\/\/.+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ - reject
+^https?:\/\/.+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/v\d\/ - reject
 ^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ - reject
 
 # >> CamScanner
@@ -170,7 +170,7 @@ FINAL,rixCloud,dns-failed
 
 # >> China CITIC Bank
 ^https?:\/\/creditcard\.ecitic\.com\/citiccard\/wtk\/piwik\/piwik\.php - reject
-^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/appspace-system-web\/cr\/v5\/appStartAdv - reject
+^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/appspace-system-web\/cr\/v\d\/appStartAdv - reject
 
 # >> China Guangfa Bank
 ^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg) - reject
@@ -207,10 +207,10 @@ FINAL,rixCloud,dns-failed
 
 # >> Douban
 ^https?:\/\/.+\.doubanio\.com\/view\/dale-online\/dale_ad/ - reject
-^https?:\/\/api\.douban\.com\/v2\/app_ads\/ - reject
+^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
 ^https?:\/\/erebor\.douban\.com\/count\/\?ad= - reject
 ^https?:\/\/frodo\.douban\.com\/.+ad - reject
-^https?:\/\/frodo\.douban\.com\/api\/v2\/movie\/ad - reject
+^https?:\/\/frodo\.douban\.com\/api\/v\d\/movie\/ad - reject
 ^https?:\/\/img\d{1}\.doubanio\.com\/view\/dale-online\/dale_ad/ - reject
 ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
 
@@ -228,7 +228,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
 
 # >> Foodie
-^https?:\/\/foodie-api\.yiruikecorp\.com\/v1\/(banner|notice)\/overview - reject
+^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
 
 # >> FOTOABLE
 ^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/ - reject
@@ -254,7 +254,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ - reject
 
 # >> Hangzhou Bus
-^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage - reject
+^https?:\/\/m\.ibuscloud.com\/v\d\/app\/getStartPage - reject
 
 # >> Hangzhou Citizen Card
 ^https?:\/\/smkmp\.96225.com\/smkcenter\/ad/ - reject
@@ -271,7 +271,7 @@ FINAL,rixCloud,dns-failed
 
 # >> iQiyi
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show.do - reject
-^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show - reject
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show - reject
 ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
 ^https?:\/\/t7z\.cupid\.iqiyi\.com\/mixer\? - reject
 
@@ -301,7 +301,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?.+(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) - reject
 ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
 ^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
-^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v3\?adjson - reject
+^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
 
 # >> KouBei
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/ - reject
@@ -333,7 +333,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ - reject
 
 # >> Manhuaren
-^https?:\/\/mangaapi\.manhuaren\.com\/v1\/public\/getStartPageAds - reject
+^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds - reject
 
 
 # >> Meituan
@@ -346,8 +346,8 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/capi.mwee.cn/app-api/V12/app/getstartad - reject
 
 # >> MI
-^https?:\/\/api\.m\.mi\.com\/v1\/app\/start - reject
-^https?:\/\/api\.jr\.mi\.com\/v1\/adv\/ - reject
+^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
+^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/ - reject
 ^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen - reject
 
 # >> MI Fit
@@ -363,14 +363,14 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/b-api\.ins\.miaopai\.com\/1\/ad/ - reject
 
 # >> MIgu
-^https?:\/\/.+\/v1\/iflyad\/ - reject
+^https?:\/\/.+\/v\d\/iflyad\/ - reject
 ^https?:\/\/.+\/cdn-adn\/ - reject
 ^https?:\/\/ggic\.cmvideo\.cn\/ad\/ - reject
 ^https?:\/\/ggic2\.cmvideo\.cn\/ad\/ - reject
 ^https?:\/\/.+/img\/ad\.union\.api\/ - reject
 
 # >> MixC
-^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v2\/ad - reject
+^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad - reject
 
 # >> MogoRenter
 ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
@@ -399,22 +399,22 @@ FINAL,rixCloud,dns-failed
 # >> ofo
 ^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
 ^https?:\/\/ma\.ofo\.com\/ads\/ - reject
-^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads - reject
+^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v\d\/ads - reject
 ^https?:\/\/ma\.ofo\.com\/adImage\/ - reject
 
 # >> PConline
 ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
-^https?:\/\/mrobot\.pcauto\.com\.cn\/v3\/ad2p - reject
+^https?:\/\/mrobot\.pcauto\.com\.cn\/v\d\/ad2p - reject
 ^https?:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/preload\.xsp - reject
 ^https?:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/ - reject
-^https?:\/\/mrobot\.pconline\.com\.cn\/v3\/ad2p - reject
+^https?:\/\/mrobot\.pconline\.com\.cn\/v\d\/ad2p - reject
 
 # >> PeanutWiFiMpass
 ^https?:\/\/cmsapi\.wifi8\.com\/v\d{1}\/(emptyAd|adNew)\/ - reject
 
 # >> Qdaily
 ^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json - reject
-^https?:\/\/notch\.qdaily\.com\/api\/v2\/boot_ad - reject
+^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad - reject
 
 # >> Qiongou
 ^https?:\/\/media\.qyer\.com\/ad\/ - reject
@@ -451,18 +451,18 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/sdkapp\.uve\.weibo\.com/\interface\/sdk\/actionad\.php - reject
 
 # >> SMZDM
-^https?:\/\/api\.smzdm\.com\/v1\/util\/loading - reject
+^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading - reject
 
 # >> Snail Sleep
-^https?:\/\/snailsleep\.net\/snail\/v1\/adTask\/ - reject
-^https?:\/\/snailsleep\.net\/snail\/v1\/screen\/qn\/get\? - reject
+^https?:\/\/snailsleep\.net\/snail\/v\d\/adTask\/ - reject
+^https?:\/\/snailsleep\.net\/snail\/v\d\/screen\/qn\/get\? - reject
 
 # >> Sohu
 ^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense - reject
 ^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
 ^https?:\/\/hui\.sohu\.com\/predownload2/\? - reject
 ^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ - reject
-^https?:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json - reject
+^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
 
 # >> StarFans
 ^https?:\/\/a\.sfansclub\.com\/business\/t\/ad\/ - reject
@@ -508,7 +508,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/47\.97\.20\.12\/ad\/ - reject
 
 # >> TV_Home
-^https?:\/\/api\.gaoqingdianshi\.com\/api\/v2\/ad\/ - reject
+^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/ - reject
 
 # >> txffp
 ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
@@ -522,7 +522,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/static\.vuevideo\.net\/styleAssets\/advertisement\/ - reject
 
 # >> WallStreetCN
-^https?:\/\/api\.wallstreetcn\.com\/apiv1\/advertising\/ - reject
+^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/ - reject
 
 # >> WeDoctor
 ^https?:\/\/app\.wy\.guahao\.com\/json\/white\/dayquestion\/getpopad - reject
@@ -537,15 +537,15 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/nochange\.ggsafe\.com\/ad\/ - reject
 
 # >> WIFI8
-^https?:\/\/cmsapi\.wifi8\.com\/v1\/emptyAd\/info - reject
-^https?:\/\/cmsapi\.wifi8\.com\/v2\/adNew\/config - reject
+^https?:\/\/cmsapi\.wifi8\.com\/v\d\/emptyAd\/info - reject
+^https?:\/\/cmsapi\.wifi8\.com\/v\d\/adNew\/config - reject
 
 # >> Wuta Cam
 ^https?:\/\/api-release\.wuta-cam\.com\/ad_tree - reject
 ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
 
 # >> Xiachufang
-^https?:\/\/api\.xiachufang\.com\/v2\/ad/ - reject
+^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ - reject
 
 # >> Xiami music
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/ - reject
@@ -577,7 +577,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/fdfs\.xmcdn\.com\/group25\/M05\/92\/D1\/ - reject
 
 # >> Xunyou Booster
-^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v1\/ios\/configs\/(splash_ad|ad_urls) - reject
+^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
 ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d{1}\/ios\/ads\/ - reject
 
 # >> Yahoo!
@@ -591,7 +591,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/.+\.mp4\?sid= - reject
 
 # >> Youtube++
-^https?:\/\/api\.catch\.gift\/api\/v3\/pagead\/ - reject
+^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ - reject
 
 # >> Yundongshijie
 ^https?:\/\/.+\.iydsj\.com\/api\/.+\/ad - reject
@@ -606,7 +606,7 @@ FINAL,rixCloud,dns-failed
 # >> Zhihu
 ^https?:\/\/api\.zhihu\.com\/launch - reject
 ^https?:\/\/api\.zhihu\.com\/real_time_launch - reject
-^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/ - reject
+^https?:\/\/www\.zhihu\.com\/api\/v\d\/community-ad\/ - reject
 
 # >> Zhuishushenqi
 ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
@@ -617,7 +617,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
 ^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
 ^https?:\/\/b\.zhuishushenqi\.com\/advert - reject
-^https?:\/\/dspsdk\.abreader\.com\/v2\/api\/ad\? - reject
+^https?:\/\/dspsdk\.abreader\.com\/v\d\/api\/ad\? - reject
 ^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903 - reject
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
 
@@ -662,7 +662,7 @@ http-response https://app.bilibili.com/x/v2/rank requires-body=true,script-path=
 http-response ^https?:\/\/(api|mapi)\.weibo\.(cn|com)\/2(\/groups\/timeline|\/statuses\/unread|\/statuses\/extend|\/comments\/build_comments|\/photo\/recommend_list|\/stories\/video_stream|\/statuses\/positives\/get|\/stories\/home_list|\/profile\/statuses|\/statuses\/friends\/timeline|\/service\/picfeed) requires-body=true,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,script-update-interval=86400
 http-response ^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(\/interface\/sdk\/sdkad.php|\/wbapplua\/wbpullad.lua) requires-body=true,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,script-update-interval=86400
 
-http-response ^https:\/\/[\s\S]*\/v1\/(aweme\/)?(feed|post)\/\? max-size=524288,requires-body=true,script-path=https://cdn.rixcloud.io/surge/Script-Set/Choler/Script/Aweme.js,script-update-interval=86400
+http-response ^https:\/\/[\s\S]*\/v\d\/(aweme\/)?(feed|post)\/\? max-size=524288,requires-body=true,script-path=https://cdn.rixcloud.io/surge/Script-Set/Choler/Script/Aweme.js,script-update-interval=86400
 
 http-response ^https:\/\/api\.rr\.tv[\s\S]*(channel|Feed|Choice|profile|Medal) max-size=524288,requires-body=true,script-path=https://cdn.rixcloud.io/surge/Script-Set/Choler/Script/RRtv.js,script-update-interval=86400
 
