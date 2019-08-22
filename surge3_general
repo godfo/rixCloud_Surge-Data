@@ -12,7 +12,7 @@ replica = false
 ipv6 = true
 show-error-page-for-reject = true
 exclude-simple-hostnames = true
-always-real-ip = msftconnecttest.com, msftncsi.com
+always-real-ip = *.msftconnecttest.com, *.msftncsi.com
 
 # macOS Only
 enhanced-mode-by-rule = false
