@@ -665,7 +665,7 @@ http-response ^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(\/interface\/sdk\/sdkad.p
 
 http-response ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ requires-body=1,script-update-interval=0,script-update-interval=86400,script-path=https://Choler.github.io/Surge/Script/Aweme.js
 
-http-response ^https:\/\/api\.rr\.tv[\s\S]*(channel|Feed|Choice|profile|Medal) max-size=524288,requires-body=true,script-path=https://cdn.rixcloud.io/surge/Script-Set/Choler/Script/RRtv.js,script-update-interval=86400
+http-response ^https:\/\/api\.rr\.tv[\s\S]*(channel|Feed|Choice|profile|Medal) max-size=524288,requires-body=true,script-path=https://cdn.rixcloud.io/surge/Script-Set/Choler/Script/RRad.js,script-update-interval=86400
 
 http-response https://api.zhihu.com/topstory/follow requires-body=true,script-path=https://cdn.rixcloud.io/surge/Script-Set/onewayticket255/surge%20zhihu%20feed.js,script-update-interval=86400
 http-response https://api.zhihu.com/topstory/recommend requires-body=true,script-path=https://cdn.rixcloud.io/surge/Script-Set/onewayticket255/surge%20zhihu%20recommend.js,script-update-interval=86400
