@@ -1,8 +1,8 @@
 [Rule]
 
 # Reject
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject.list,REJECT
-# RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject-GIF.list,REJECT-TINYGIF
+RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject.list,AD Block
+# RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject-GIF.list,AD Block
 
 # Selectable
 RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Stream.list,Stream Services
