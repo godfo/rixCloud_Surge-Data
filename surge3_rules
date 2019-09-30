@@ -652,11 +652,11 @@ mi.com = server:119.29.29.29
 *.mi.com = server:119.29.29.29
 xiaomi.com = server:119.29.29.29
 *.xiaomi.com = server:119.29.29.29
-routerlogin.net = server:syslib
-_hotspot_.m2m = server:syslib
-router.asus.com = server:syslib
-hotspot.cslwifi.com = server:syslib
-amplifi.lan = server:syslib
+routerlogin.net = server:system
+_hotspot_.m2m = server:system
+router.asus.com = server:system
+hotspot.cslwifi.com = server:system
+amplifi.lan = server:system
 
 [Script]
 http-response https://app.bilibili.com/x/resource/show/tab requires-body=true,script-path=https://cdn.rixcloud.io/surge/Script-Set/onewayticket255/surge%20bilibili%20tab.js,script-update-interval=86400
