@@ -14,6 +14,7 @@ show-error-page-for-reject = true
 exclude-simple-hostnames = true
 always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com
 
+
 internet-test-url = http://www.aliyun.com
 proxy-test-url = http://captive.rixcloud.io/generate_204
 
