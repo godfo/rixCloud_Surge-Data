@@ -355,6 +355,8 @@ USER-AGENT,MicroMessenger Client,Domestic
 USER-AGENT,WeChat*,Domestic
 
 # >> Others
+
+DOMAIN-SUFFIX,bemanicn.cc,Domestic
 DOMAIN-SUFFIX,jd.hk,Domestic
 DOMAIN-SUFFIX,maoyun.tv,Domestic
 DOMAIN-SUFFIX,teamviewer.com,Domestic
