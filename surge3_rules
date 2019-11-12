@@ -1,19 +1,19 @@
 [Rule]
 
 # Reject
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject.list,AD Block
-# RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject-GIF.list,AD Block
+RULE-SET,https://ruleset.dev/surge3_reject,AD Block
+# RULE-SET,https://ruleset.dev/surge3_reject-tinygif,AD Block
 
 # Selectable
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Stream.list,Stream Services
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Apple.list,Apple Services
+RULE-SET,https://ruleset.dev/surge3_stream_services,Stream Services
+RULE-SET,https://ruleset.dev/surge3_apple_services,Apple Services
 
 # Proxy
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW+.list,rixCloud
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW.list,rixCloud
+RULE-SET,https://ruleset.dev/surge3_global_plus,rixCloud
+RULE-SET,https://ruleset.dev/surge3_global,rixCloud
 
 # Direct and Domestic
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/China.list,Domestic
+RULE-SET,https://ruleset.dev/surge3_domestic,Domestic
 RULE-SET,LAN,DIRECT
 GEOIP,CN,Domestic
 
