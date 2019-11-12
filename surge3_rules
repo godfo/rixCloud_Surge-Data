@@ -2,7 +2,7 @@
 
 # Reject
 RULE-SET,https://ruleset.dev/surge3_reject,AD Block
-# RULE-SET,https://ruleset.dev/surge3_reject-tinygif,AD Block
+RULE-SET,https://ruleset.dev/surge3_reject-tinygif,AD Block
 
 # Selectable
 RULE-SET,https://ruleset.dev/surge3_stream_services,Stream Services
