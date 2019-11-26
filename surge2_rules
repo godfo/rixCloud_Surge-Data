@@ -189,6 +189,7 @@ DOMAIN-SUFFIX,pornhub.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,quora.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,reddit.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,redditmedia.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,redd.it,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,reuters.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,scribd.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,shadowsocks.org,rixCloud,force-remote-dns
