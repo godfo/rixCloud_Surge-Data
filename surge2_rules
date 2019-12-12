@@ -259,6 +259,7 @@ USER-AGENT,AppleNews*,rixCloud
 # >> Google
 DOMAIN-SUFFIX,abc.xyz,rixCloud
 DOMAIN-SUFFIX,admin.recaptcha.net,rixCloud
+DOMAIN-SUFFIX,ampproject.org,rixCloud
 DOMAIN-SUFFIX,android.com,rixCloud
 DOMAIN-SUFFIX,androidify.com,rixCloud
 DOMAIN-SUFFIX,autodraw.com,rixCloud
