@@ -511,7 +511,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/iflow\.uczzd\.cn\/log\/ - reject
 
 # >> Variflight
-^https:\/\/app\.variflight\.com\/v4\/advert\/
+^https:\/\/app\.variflight\.com\/v4\/advert\/ - reject
 
 # >> VUE
 ^https?:\/\/static\.vuevideo\.net\/styleAssets\/.+\/splash_ad - reject
