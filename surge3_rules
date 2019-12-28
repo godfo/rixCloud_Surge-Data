@@ -5,6 +5,7 @@ RULE-SET,https://ruleset.dev/surge3_reject,AD Block
 RULE-SET,https://ruleset.dev/surge3_reject-tinygif,AD Block
 
 # Selectable
+RULE-SET,https://ruleset.dev/surge3_netease_music,Netease Music
 RULE-SET,https://ruleset.dev/surge3_stream_services,Stream Services
 RULE-SET,https://ruleset.dev/surge3_apple_services,Apple Services
 
