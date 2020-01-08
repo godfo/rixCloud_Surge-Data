@@ -667,7 +667,7 @@ http-response ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ requires
 
 http-response ^https:\/\/api\.rr\.tv[\s\S]*(channel|Feed|Choice|profile|Medal) max-size=524288,requires-body=true,script-path=https://ruleset.dev/RRad,script-update-interval=86400
 
-#Onewayticket255
+# Onewayticket255
 http-response https://api.zhihu.com/moments\?(action|feed_type) requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_feed,script-update-interval=86400
 http-response https://api.zhihu.com/topstory/recommend requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_recommend,script-update-interval=86400
 http-response https://api.zhihu.com/.*/questions requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_answer,script-update-interval=86400
