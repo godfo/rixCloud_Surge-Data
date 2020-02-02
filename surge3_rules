@@ -637,12 +637,12 @@ mi.com = server:119.29.29.29
 *.mi.com = server:119.29.29.29
 xiaomi.com = server:119.29.29.29
 *.xiaomi.com = server:119.29.29.29
-routerlogin.net = server:syslib
-_hotspot_.m2m = server:syslib
-router.asus.com = server:syslib
-hotspot.cslwifi.com = server:syslib
-amplifi.lan = server:syslib
-*.lan = server:syslib
+routerlogin.net = server:system
+_hotspot_.m2m = server:system
+router.asus.com = server:system
+hotspot.cslwifi.com = server:system
+amplifi.lan = server:system
+*.lan = server:system
 
 [Script]
 
