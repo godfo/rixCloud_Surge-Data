@@ -661,6 +661,7 @@ http-response https://api.zhihu.com/moments\?(action|feed_type) requires-body=1,
 http-response https://api.zhihu.com/topstory/recommend requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_recommend,script-update-interval=86400
 http-response https://api.zhihu.com/.*/questions requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_answer,script-update-interval=86400
 http-response https://api.zhihu.com/market/header requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_market,script-update-interval=86400
+http-response https://api.zhihu.com/people/ requires-body=1,max-size=0,script-path=https://ruleset.dev/surge3_zhihu_people,script-update-interval=86400
 
 http-response https://app.bilibili.com/x/v2/rank requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_rank,script-update-interval=86400
 http-response https://app.bilibili.com/x/v2/space\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_space,script-update-interval=86400
