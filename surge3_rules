@@ -612,6 +612,7 @@ FINAL,rixCloud,dns-failed
 [Host]
 ip6-localhost = ::1
 ip6-loopback = ::1
+doh.rixcloud.dev = server:119.29.29.29
 taobao.com = server:223.6.6.6
 *.taobao.com = server:223.6.6.6
 tmall.com = server:223.6.6.6
