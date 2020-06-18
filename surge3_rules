@@ -7,6 +7,8 @@ RULE-SET,https://ruleset.dev/surge3_reject-tinygif,AD Block
 # Pre-proxy Selectable
 RULE-SET,https://ruleset.dev/surge3_netease_music,Netease Music
 RULE-SET,https://ruleset.dev/surge3_stream_services,Stream Services
+RULE-SET,https://ruleset.dev/surge3_domestic,Domestic
+RULE-SET,SYSTEM,Domestic
 
 # Proxy
 RULE-SET,https://ruleset.dev/surge3_global_plus,rixCloud
@@ -14,9 +16,6 @@ RULE-SET,https://ruleset.dev/surge3_global,rixCloud
 
 # Post-proxy Selectable
 RULE-SET,https://ruleset.dev/surge3_apple_services,Apple Services
-
-# Direct and Domestic
-RULE-SET,https://ruleset.dev/surge3_domestic,Domestic
 RULE-SET,LAN,DIRECT
 GEOIP,CN,Domestic
 
