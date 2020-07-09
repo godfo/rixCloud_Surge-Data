@@ -591,9 +591,13 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/.+\/allOne\.php\?ad_name - reject
 
 # >> Zhihu
-^https?:\/\/api\.zhihu\.com\/launch - reject
-^https?:\/\/api\.zhihu\.com\/real_time_launch - reject
-^https?:\/\/www\.zhihu\.com\/api\/v\d\/community-ad\/ - reject
+^https?:\/\/www\.zhihu\.com\/terms\/privacy\/confirm - reject
+^https?:\/\/api\.zhihu\.com\/market\/popover - reject
+^https?:\/\/api\.zhihu\.com\/search\/(top|tab|preset) - reject
+^https?:\/\/api\.zhihu\.com\/(launch|ad-style-service|app_config|real_time|ab\/api) - reject
+^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time) - reject
+^https?:\/\/(api|www)\.zhihu\.com\/.*(featured-comment-ad|recommendations|community-ad) - reject
+^https?:\/\/(api|www)\.zhihu\.com\/(fringe|adx|commercial|ad-style-service|banners|mqtt) - reject
 
 # >> Zhuishushenqi
 ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
