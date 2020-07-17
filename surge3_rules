@@ -97,8 +97,8 @@ FINAL,rixCloud,dns-failed
 (?<=(carrier|account|sys|sim)_region=)CN JP 307
 
 # Wiki
-^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
-^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
+# ^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
+# ^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
 
 # Resso
 
