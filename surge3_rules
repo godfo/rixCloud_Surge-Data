@@ -93,7 +93,6 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/www.jd.com\/ https://www.jd.com/ 302
 
 # TikTok Internation
-(.*video_id=\w{32})(.*watermark=)(.*) $1 302
 (?<=(carrier|account|sys|sim)_region=)CN JP 307
 
 # Wiki
@@ -655,8 +654,6 @@ amplifi.lan = server:system
 
 http-response ^https?:\/\/(api|mapi)\.weibo\.(cn|com)\/2(\/groups\/timeline|\/statuses\/unread|\/statuses\/extend|\/comments\/build_comments|\/photo\/recommend_list|\/stories\/video_stream|\/statuses\/positives\/get|\/stories\/home_list|\/profile\/statuses|\/statuses\/friends\/timeline|\/service\/picfeed) requires-body=true,script-path=https://ruleset.dev/wb_ad,script-update-interval=86400
 http-response ^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(\/interface\/sdk\/sdkad.php|\/wbapplua\/wbpullad.lua) requires-body=true,script-path=https://ruleset.dev/wb_launch,script-update-interval=86400
-
-http-response ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ requires-body=1,script-update-interval=0,script-update-interval=86400,script-path=https://ruleset.dev/Aweme
 
 http-response ^https:\/\/api\.rr\.tv[\s\S]*(channel|Feed|Choice|profile|Medal) max-size=524288,requires-body=true,script-path=https://ruleset.dev/RRad,script-update-interval=86400
 
