@@ -28,8 +28,8 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
 
 # Redirect Google Service
-^https?:\/\/(www.)?g\.cn https://www.google.com 302
-^https?:\/\/(www.)?google\.cn https://www.google.com 302
+^https?:\/\/(www.)?g\.cn https://www.google.com/ 302
+^https?:\/\/(www.)?google\.cn https://www.google.com/ 302
 
 # Redirect HTTP to HTTPS
 ^https?:\/\/(www.)?taobao\.com\/ https://www.taobao.com/ 302
