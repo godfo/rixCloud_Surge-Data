@@ -663,7 +663,6 @@ http-response https://api.zhihu.com/topstory/recommend requires-body=1,max-size=
 http-response https://api.zhihu.com/.*/questions requires-body=1,max-size=0,script-path=https://ruleset.dev/zhihu_answer,script-update-interval=86400
 http-response https://api.zhihu.com/people/ requires-body=1,max-size=0,script-path=https://ruleset.dev/surge3_zhihu_people,script-update-interval=86400
 
-http-response https://app.bilibili.com/x/v2/rank requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_rank,script-update-interval=86400
 http-response https://app.bilibili.com/x/v2/space\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_space,script-update-interval=86400
 http-response https://app.bilibili.com/x/resource/show/tab\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_tab,script-update-interval=86400
 http-response https://app.bilibili.com/x/v2/feed/index\?access_key requires-body=1,max-size=0,script-path=https://ruleset.dev/bilibili_feed,script-update-interval=86400
