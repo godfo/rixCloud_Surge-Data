@@ -12,7 +12,8 @@ replica = false
 ipv6 = true
 show-error-page-for-reject = true
 exclude-simple-hostnames = true
-always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn,
+always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn
+hijack-dns = 8.8.8.8:53, 8.8.4.4:53
 
 internet-test-url = http://www.aliyun.com
 proxy-test-url = http://cp.cloudflare.com/generate_204
